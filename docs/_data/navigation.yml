@@ -1,0 +1,51 @@
+main:
+  - title: <i class="far fa-bell"></i> Announcements
+    url: https://groups.google.com/forum/#!forum/metacontroller-announce
+  - title: <i class="far fa-comments"></i> Forum
+    url: https://groups.google.com/forum/#!forum/metacontroller
+  - title: <i class="fab fa-github"></i> GitHub
+    url: https://github.com/GoogleCloudPlatform/metacontroller
+
+docs:
+  - title: Getting Started
+    url: /
+    children:
+      - title: Introduction
+        url: /
+      - title: Examples
+        url: /examples/
+      - title: Concepts
+        url: /concepts/
+      - title: FAQ
+        url: /faq/
+  - title: User Guide
+    url: /guide/
+    children:
+      - title: Install Metacontroller
+        url: /guide/install/
+      - title: Create a Controller
+        url: /guide/create/
+      - title: Controller Best Practices
+        url: /guide/best-practices/
+      - title: Troubleshooting
+        url: /guide/troubleshooting/
+  - title: API Reference
+    url: /api/
+    children:
+      - title: CompositeController
+        url: /api/compositecontroller/
+      - title: DecoratorController
+        url: /api/decoratorcontroller/
+  - title: Contributing
+    url: /contrib/
+    children:
+      - title: Building
+        url: /contrib/build/
+      - title: Issues <i class="fas fa-external-link-alt nav-tag"></i>
+        url: https://github.com/GoogleCloudPlatform/metacontroller/issues
+      - title: Projects <i class="fas fa-external-link-alt nav-tag"></i>
+        url: https://github.com/GoogleCloudPlatform/metacontroller/projects
+      - title: Roadmap <i class="fas fa-external-link-alt nav-tag"></i>
+        url: https://github.com/GoogleCloudPlatform/metacontroller/issues/9
+  - title: Design docs
+    url: /design/
